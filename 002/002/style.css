@@ -1,0 +1,49 @@
+body {
+    font: 12px/14px verdana, sans-serif;
+    background-color: #FFD7c4;
+    padding: 64px 0px 0px 224px;
+    margin: 0px;
+}
+
+.page-wrapper {
+    margin: 0px auto;
+}
+
+.intro {
+    height: 64px;
+    background: #FFC5A9 url(/002/bg2.gif) top left repeat-x;
+}
+
+header {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    background-color: #fff;
+}
+
+.intro header h1 {
+    height: 62px;
+    float: left;
+    right: 8px;
+    margin: 0px;
+    width: 258px;
+    padding: 2px 0px 0px 4px;
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    background: transparent url('./h1.gif') no-repeat top left;
+}
+
+.intro header h2 {
+    float: right;
+    position: relative;
+    right: 60%;
+    width: 206px;
+    height: 28px;
+    margin: 18px 16px;
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    background: transparent url('./h2.gif') no-repeat top left;
+}
